@@ -9,14 +9,14 @@ const links: Link[] = [
 </script>
 
 <template>
-  <nav class="navbar justify-between">
+  <nav class="navbar justify-between h-4">
     <!-- Logo -->
     <a class="btn btn-ghost text-lg">
       Company
     </a>
 
     <!-- Menu for mobile -->
-    <div class="dropdown dropdown-end sm:hidden">
+    <div class="dropdown dropdown-end sm:hidden z-[1] shadow-md">
       <button class="btn btn-ghost">
         <Icon name="fa6-solid:bars" class="text-lg" />
       </button>
