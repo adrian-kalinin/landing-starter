@@ -1,8 +1,5 @@
 <script setup lang="ts">
-interface Link {
-  label: string
-  to: string
-}
+import type { Link } from '~/types'
 
 const links: Link[] = [
   { label: 'Features', to: '#' },
