@@ -2,7 +2,7 @@
 import type { Link } from '~/types'
 
 const links: Link[] = [
-  { label: 'Features', to: '#' },
+  { label: 'Features', to: '#features' },
   { label: 'Pricing', to: '#' },
   { label: 'FAQ', to: '#' },
 ]

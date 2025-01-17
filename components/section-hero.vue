@@ -1,11 +1,11 @@
 <template>
-  <div class="hero bg-base-200 h-[calc(100vh-4rem)]">
+  <div id="hero" class="hero bg-base-200 h-[calc(100vh-4rem)]">
     <div class="hero-content flex-col lg:flex-row-reverse">
       <img
         src="https://placehold.co/600x400?text=..."
         class="w-xl max-w-full rounded-lg shadow-sm"
       >
-      <div>
+      <div class="px-6">
         <h1 class="text-5xl font-bold">
           Lorem Ipsum
         </h1>
@@ -14,6 +14,9 @@
         </p>
         <NuxtLink to="#" class="btn btn-primary">
           Get Started
+        </NuxtLink>
+        <NuxtLink to="#features" class="btn btn-ghost ml-4">
+          Learn More
         </NuxtLink>
       </div>
     </div>
