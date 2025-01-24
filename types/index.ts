@@ -7,6 +7,8 @@ export interface Feature {
   title: string
   description: string
   image: string
+  badge: string
+  features: string[]
 }
 
 export interface PlanStyle {
