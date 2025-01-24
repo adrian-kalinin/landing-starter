@@ -58,7 +58,7 @@ const features: Feature[] = [
             <img :src="feature.image" class="rounded-lg shadow-lg w-full">
           </div>
           <div class="lg:w-1/2">
-            <span class="badge badge-primary">{{ feature.badge }}</span>
+            <span class="badge badge-primary text-white rounded-xl">{{ feature.badge }}</span>
             <h3 class="mt-4 text-3xl font-bold">
               {{ feature.title }}
             </h3>

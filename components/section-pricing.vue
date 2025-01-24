@@ -9,6 +9,7 @@ const pricingPlans: PricingPlan[] = [
     features: [
       'Only 1 user',
       'Basic features',
+      '10BG storage',
     ],
     style: {
       button: 'btn-outline',
@@ -22,9 +23,10 @@ const pricingPlans: PricingPlan[] = [
     features: [
       'Up to 10 users',
       'Advanced features',
+      '20GB storage',
     ],
     style: {
-      button: 'btn-outline border-primary btn-primary',
+      button: 'btn-outline border-primary text-primary hover:bg-primary hover:border-primary hover:text-white',
       icon: 'text-primary',
       accent: 'text-primary',
     },

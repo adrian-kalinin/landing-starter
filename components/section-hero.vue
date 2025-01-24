@@ -12,10 +12,10 @@
           Elevate your business to new heights with our cutting-edge solutions. Seamlessly integrate powerful features, flexible pricing, and dedicated support.
         </p>
         <div class="flex gap-4">
-          <NuxtLink to="#" class="btn btn-primary">
+          <NuxtLink to="#" class="btn btn-primary text-white rounded-lg">
             Get Started
           </NuxtLink>
-          <NuxtLink to="#features" class="btn btn-ghost">
+          <NuxtLink to="#features" class="btn btn-ghost rounded-lg">
             Learn More
           </NuxtLink>
         </div>
