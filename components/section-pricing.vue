@@ -33,7 +33,7 @@ const pricingPlans: PricingPlan[] = [
 </script>
 
 <template>
-  <section id="pricing" class="py-24">
+  <section id="pricing" class="py-16">
     <div class="mx-auto px-4">
       <div class="text-center mb-16">
         <h2 class="text-4xl font-bold mb-4">
