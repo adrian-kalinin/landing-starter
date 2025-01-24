@@ -66,9 +66,9 @@ const pricingPlans: PricingPlan[] = [
               </li>
             </ul>
             <div class="card-actions">
-              <button class="btn w-full" :class="[plan.style.button]">
+              <NuxtLink to="#" class="btn w-full" :class="[plan.style.button]">
                 Get Started
-              </button>
+              </NuxtLink>
             </div>
           </div>
         </div>
