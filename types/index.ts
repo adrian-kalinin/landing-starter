@@ -24,3 +24,8 @@ export interface PricingPlan {
   features: string[]
   style: PlanStyle
 }
+
+export interface FaqItem {
+  question: string
+  answer: string
+}
