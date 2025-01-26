@@ -1,6 +1,6 @@
 # Nuxt Minimal Starter
 
-This a marketing website template for a SaaS project, it contains a landing page and a blog system.
+This a landing page starter for a SaaS project.
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
